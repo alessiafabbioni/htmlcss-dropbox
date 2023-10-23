@@ -1,0 +1,52 @@
+/* General rules*/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+/*header rules*/
+
+.container {
+    width: 100%;
+    min-height: 70px;
+}
+
+.header {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 10px;
+}
+
+.container-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.header-link {
+    padding: 0 13px;
+}
+
+
+/* Button rules*/
+
+.cta {
+    background-color: #007aff;
+    border: none;
+    color: white;
+}
+
+.cta-header {
+    padding: 5px 7px;
+}

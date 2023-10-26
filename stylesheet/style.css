@@ -218,6 +218,26 @@ body {
     padding-top: 50px;
 }
 
+.partner {
+    padding: 40px 20px;
+}
+
+.partner p{
+    padding: 20px 0;
+}
+
+.container-bq4 {
+    padding: 0 20px;
+}
+
+.container-bq4 h3{
+    padding: 5px 0;
+}
+
+.container-bq4 p{
+    padding: 15px 0;
+}
+
 .universities {
     display: flex;
     flex-direction: row;
@@ -274,10 +294,7 @@ footer {
     font-size: 50px;
 }
 
-.footer-bq li{
-    list-style: none;
-    font-size: 12px;
-}
+
 
 #arizona {
     background-color: rebeccapurple;
@@ -376,4 +393,15 @@ footer {
 .answer{
     padding-top: 30px;
     font-weight: bold;
+}
+
+
+.footer-bq li{
+    list-style: none;
+    font-size: 12px;
+    padding: 5px 0;
+}
+
+.footer-bq h4{
+    padding-bottom: 10px;
 }
